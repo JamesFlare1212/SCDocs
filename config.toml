@@ -19,7 +19,7 @@ disqusShortname = ""
 
 # (Optional) Set this to true to enable 'Last Modified by' date and git author
 #  information on 'doc' type pages.
-enableGitInfo = false
+enableGitInfo = true
 
 # (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
 # You can remove related files with config below
@@ -50,24 +50,24 @@ enableGitInfo = false
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  #BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookRepo = 'https://github.com/JamesFlare1212/SCDocs'
 
   # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
   # type.
   # Required if 'BookRepo' param is set.
   # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
   # Github uses 'commit', Bitbucket uses 'commits'
-  #BookCommitPath = 'commit'
+  BookCommitPath = 'commit'
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  #BookEditPath = 'edit/master/exampleSite'
+  BookEditPath = 'edit/dev'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
   # - In blog posts
-  BookDateFormat = 'Jan 12, 2023'
+  BookDateFormat = 'January 2, 2006'
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
@@ -78,7 +78,7 @@ enableGitInfo = false
   # By default partials/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  #BookComments = true
+  BookComments = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.

@@ -49,8 +49,12 @@ bookCollapseSection: true
 - Robin Bao
 - Boven Jiang
 - Tobby Xu
+<<<<<<< HEAD:content.zh/docs/学术资源/学科在线资源/_index.md
 - Derrick Jiang
 - [James Zhou](https://www.jamesflare.com)
+=======
+- [James Zhou](https://jamesflare.com)
+>>>>>>> master:content.en/docs/学术资源/学科在线资源/_index.md
 - Angel Hu
 
 <--->
@@ -69,10 +73,13 @@ bookCollapseSection: true
 
 <--->
 
+<<<<<<< HEAD:content.zh/docs/学术资源/学科在线资源/_index.md
 ### 物理
 
 - Derrick Jiang
 
+=======
+>>>>>>> master:content.en/docs/学术资源/学科在线资源/_index.md
 ### 开发
 
 - [James Zhou](https://www.jamesflare.com)
