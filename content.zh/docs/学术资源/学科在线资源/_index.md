@@ -62,14 +62,14 @@ bookCollapseSection: true
 
 - Boven Jiang
 
-### 物理
-- Derrick Jiang
-
 ### 经济
 
 - Tobby Xu
 
 <--->
+
+### 物理
+- Derrick Jiang
 
 ### 开发
 
