@@ -33,7 +33,7 @@ bookCollapseSection: true
   - [自然科学](自然科学/)
     - **物理**
 
-于是直接点击右边的[自然科学](自然科学/)即可找到。
+这样的话，直接点击右边的[自然科学](自然科学/)即可找到。
 
 {{< /columns >}}
 
@@ -50,7 +50,7 @@ bookCollapseSection: true
 - Boven Jiang
 - Tobby Xu
 - Derrick Jiang
-- [James Zhou](https://jamesflare.com)
+- [James Zhou](https://www.jamesflare.com)
 - Angel Hu
 
 <--->
@@ -73,7 +73,7 @@ bookCollapseSection: true
 
 ### 开发
 
-- [James Zhou](https://jamesflare.com)
+- [James Zhou](https://www.jamesflare.com)
 
 ### 头
 
