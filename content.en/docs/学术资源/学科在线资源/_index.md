@@ -29,11 +29,11 @@ bookCollapseSection: true
 
 这很好查询。比如我要找，物理，那它属于
 
-> - 学科
->   - [自然科学](自然科学/)
->     - **物理**
+- 学科
+  - [自然科学](自然科学/)
+    - **物理**
 
-这样的话，直接点击右边的[自然科学](自然科学/)即可找到。
+于是直接点击右边的[自然科学](自然科学/)即可找到。
 
 {{< /columns >}}
 
@@ -49,18 +49,12 @@ bookCollapseSection: true
 - Robin Bao
 - Boven Jiang
 - Tobby Xu
-<<<<<<< HEAD:content.zh/docs/学术资源/学科在线资源/_index.md
-- Derrick Jiang
-- [James Zhou](https://www.jamesflare.com)
-=======
 - [James Zhou](https://jamesflare.com)
->>>>>>> master:content.en/docs/学术资源/学科在线资源/_index.md
 - Angel Hu
 
 <--->
 
 ### 生物
-
 - Robin Bao
 
 ### 化学
@@ -73,16 +67,9 @@ bookCollapseSection: true
 
 <--->
 
-<<<<<<< HEAD:content.zh/docs/学术资源/学科在线资源/_index.md
-### 物理
-
-- Derrick Jiang
-
-=======
->>>>>>> master:content.en/docs/学术资源/学科在线资源/_index.md
 ### 开发
 
-- [James Zhou](https://www.jamesflare.com)
+- [James Zhou](https://jamesflare.com)
 
 ### 头
 
