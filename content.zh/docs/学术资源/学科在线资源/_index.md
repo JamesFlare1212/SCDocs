@@ -49,6 +49,7 @@ bookCollapseSection: true
 - Robin Bao
 - Boven Jiang
 - Tobby Xu
+- Derrick Jiang
 - [James Zhou](https://jamesflare.com)
 - Angel Hu
 
@@ -60,6 +61,9 @@ bookCollapseSection: true
 ### 化学
 
 - Boven Jiang
+
+### 物理
+- Derrick Jiang
 
 ### 经济
 
