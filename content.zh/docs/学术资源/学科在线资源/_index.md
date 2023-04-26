@@ -29,9 +29,9 @@ bookCollapseSection: true
 
 这很好查询。比如我要找，物理，那它属于
 
-- 学科
-  - [自然科学](自然科学/)
-    - **物理**
+> - 学科
+>   - [自然科学](自然科学/)
+>     - **物理**
 
 这样的话，直接点击右边的[自然科学](自然科学/)即可找到。
 
@@ -56,6 +56,7 @@ bookCollapseSection: true
 <--->
 
 ### 生物
+
 - Robin Bao
 
 ### 化学
@@ -69,6 +70,7 @@ bookCollapseSection: true
 <--->
 
 ### 物理
+
 - Derrick Jiang
 
 ### 开发
