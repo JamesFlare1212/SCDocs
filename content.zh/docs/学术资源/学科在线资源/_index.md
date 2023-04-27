@@ -45,11 +45,11 @@ bookCollapseSection: true
 
 ### 合计
 
+- Derrick Jiang
 - Cindy Pan
 - Robin Bao
 - Boven Jiang
 - Tobby Xu
-- Derrick Jiang
 - [James Zhou](https://www.jamesflare.com)
 - Angel Hu
 
@@ -69,7 +69,7 @@ bookCollapseSection: true
 
 <--->
 
-### 物理
+### 物理 & Contributor
 
 - Derrick Jiang
 
