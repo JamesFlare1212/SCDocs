@@ -13,7 +13,7 @@
 ### [EconplusDal](https://www.youtube.com/c/EconplusDal1)
 
 {{< tabs "EconplusDal" >}}
-{{< tab "简介" >}}一个对于考试前突击复习特别有帮助的YouTube频道，适用于A-Level和IB考试。视频主要集中在重点知识点。{{< /tab >}}
+{{< tab "简介" >}}一个对于考试前突击复习特别有帮助的 YouTube 频道，适用于A-Level和IB考试。视频主要集中在重点知识点。{{< /tab >}}
 {{< /tabs >}}
 
 ### [Ali Anwerzada](https://www.youtube.com/channel/UCYnCkdiFJgxJ7BW9XN7m6Cw/playlists)

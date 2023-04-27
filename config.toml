@@ -90,6 +90,13 @@ enableGitInfo = true
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   #BookServiceWorker = true
 
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+  [params.pangu]
+    # For Chinese writing
+    enable = true
+
 [languages]
     [languages.en]
     languageName = 'English'
@@ -106,4 +113,4 @@ enableGitInfo = true
     unsafe = true
 
     [markup.tableOfContents]
-    startLevel = 1
+    startLevel = 2
