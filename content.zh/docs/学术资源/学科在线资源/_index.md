@@ -69,7 +69,7 @@ bookCollapseSection: true
 
 <--->
 
-### 物理 & Coordinator
+### 物理 Co-Contributor
 
 - Derrick Jiang
 
