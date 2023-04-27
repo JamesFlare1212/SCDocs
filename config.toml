@@ -3,7 +3,7 @@ title = 'Academic Resources'
 theme = "hugo-book"
 
 defaultContentLanguage = "en"
-languageCode = ["zh","en"]
+languageCode = "zh"
 hasCJKLanguage = true
 
 # (Optional) Set Google Analytics if you use it to track your website.
