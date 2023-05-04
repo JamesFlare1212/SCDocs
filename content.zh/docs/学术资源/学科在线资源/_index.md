@@ -50,7 +50,7 @@ bookCollapseSection: true
 - Boven Jiang
 - Tobby Xu
 - Derrick Jiang
-- [James Zhou](https://www.jamesflare.com)
+- [James Zhou](/zh/posts/about/james-zhou/)
 - Angel Hu
 
 <--->
@@ -75,7 +75,7 @@ bookCollapseSection: true
 
 ### 开发
 
-- [James Zhou](https://www.jamesflare.com)
+- [James Zhou](/zh/posts/about/james-zhou/)
 
 ### 头
 
