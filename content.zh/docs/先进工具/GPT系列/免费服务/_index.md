@@ -12,7 +12,7 @@ Form中的组织信息很重要，虽然不是必填，但是会极大程度影�
 
 <iframe width="100%" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jtRrTNUQzlBSTZFRjFJMEswTjJKNzRCOTVZUk5DUy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
-//如果Form没有正常显示，尝试[点击此链接](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jtRrTNUQzlBSTZFRjFJMEswTjJKNzRCOTVZUk5DUy4u)。
+// 如果Form没有正常显示，尝试[点击此链接](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jtRrTNUQzlBSTZFRjFJMEswTjJKNzRCOTVZUk5DUy4u)。
 
 ## ChatGPT Next Web
 
