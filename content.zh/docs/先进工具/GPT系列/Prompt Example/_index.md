@@ -1,6 +1,6 @@
 # Prompt Example
 
-## 词典
+## 英文词典
 
 {{< tabs "词典" >}}
 
