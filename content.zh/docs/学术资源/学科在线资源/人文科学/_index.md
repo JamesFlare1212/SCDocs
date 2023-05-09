@@ -57,3 +57,11 @@ There are also a non ebook version with
 {{< /tab >}}
 
 {{< /tabs >}}
+
+## Humanities
+
+### 同学社Academy
+
+{{< tabs "同学社Academy" >}}
+{{< tab "简介" >}}微信公众号，是一个平台，专门提供艺术和人文领域的在线课程。{{< /tab >}}
+{{< /tabs >}}

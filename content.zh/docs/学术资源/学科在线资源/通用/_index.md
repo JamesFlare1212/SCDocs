@@ -47,7 +47,7 @@
 {{< tab "简介" >}}待办{{< /tab >}}
 {{< /tabs >}}
 
-## [EDX](https://www.edx.org/)
+## [edX](https://www.edx.org/)
 
 {{< tabs "EDX" >}}
 {{< tab "简介" >}}麻省理工和哈佛大学的大规模开放在线课堂平台，大部分是英文的，但可以听清华、北大、香港大学、香港科技大学的课程。{{< /tab >}}
@@ -69,4 +69,10 @@
 
 {{< tabs "Professor Dave Explains" >}}
 {{< tab "简介" >}}涵盖人文科学到自然科学知识的 YouTube 频道。特别推荐有关生物和化学的内容。{{< /tab >}}
+{{< /tabs >}}
+
+## [Coursera](https://www.coursera.org/)
+
+{{< tabs "Coursera" >}}
+{{< tab "简介" >}}这是一个网站，提供免费和付费的高阶课程和在线学位，涵盖许多领域，来自世界上著名大学的教授。{{< /tab >}}
 {{< /tabs >}}

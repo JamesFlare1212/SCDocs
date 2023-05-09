@@ -49,7 +49,7 @@ Output：
 
 {{< /tabs >}}
 
-## Chain-of-Thought (CoT)
+## **C**hain-**o**f-**T**hought (**CoT**)
 
 {{< tabs "Chain-of-Thought (CoT)" >}}
 
