@@ -67,6 +67,10 @@ bookCollapseSection: true
 
 - Tobby Xu
 
+### 美术历史
+
+- [James Zhou](/zh/posts/about/james-zhou/)
+
 <--->
 
 ### 物理
