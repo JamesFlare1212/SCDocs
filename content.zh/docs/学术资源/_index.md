@@ -14,9 +14,9 @@ bookCollapseSection: true
 - [explore your major & extracurricular](https://docs.qq.com/doc/DQmxCYVlFdUhuSU1p)
 - [Online Resources for school subjects](https://docs.qq.com/doc/DQnltV21YTVlQSG1a)
 
-### 问题
+## 问题
 
-整体是思路是对的，也就是分门别类。
+源文件的整体是思路是对的，也就是分门别类。
 
 但是呢，它有几个问题。
 
@@ -26,7 +26,7 @@ bookCollapseSection: true
 
 最后，由于是用户协作的产物，版本控制，审核，就很重要，其他的方案，比如 Git 中的 PR（Pull Requests）操作，显然是腾讯文档不曾拥有的。这样就导致产物非常杂，并没有统一格式化。
 
-### 优点
+## 优点
 
 上述的缺点全是我们的优点，除此之外，我们还有优异的性能
 
@@ -44,16 +44,16 @@ bookCollapseSection: true
 
 同时拥有一定的搜索功能，这也是之前不曾拥有的。
 
-### 开发进度
+## 开发进度
 
 不过一切美好的前提是把内容都重写完，这有些困难，工作量失控。
 
 - [学科在线资源](学科在线资源/) ~~开发完成~~ **完善内容中**
 - [学术工具集](学术工具集/) ~~开发完成~~ **完善内容中**
-- [专业与课外资源](专业与课外资源/) **开发中 10%**
+- [专业与课外资源](专业与课外资源/) ~~开发完成~~ **完善内容中**
 
 ## 开始使用
 
 使用很简单，所需的资源都罗列好了，
 
-点击左侧的 ToC（Table of Content）查看具体的简介吧。
+点击左侧的 **T**able **o**f **C**ontent（**ToC**）查看具体的简介吧。

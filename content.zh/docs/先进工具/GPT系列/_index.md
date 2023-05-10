@@ -1,3 +1,7 @@
+---
+title: GPT 系列
+---
+
 # GPT系列
 
 ## 前言
@@ -15,7 +19,6 @@
 - [Prompt Repository]({{< relref "/docs/先进工具/GPT系列/Prompt Repository/" >}})
 - [Prompt Example]({{< relref "/docs/先进工具/GPT系列/Prompt Example/" >}})
 - [Prompt Technique]({{< relref "/docs/先进工具/GPT系列/Prompt Technique/" >}})
-- [免费服务]({{< relref "/docs/先进工具/GPT系列/免费服务/" >}})
 <--->
 
 {{< /columns >}}
