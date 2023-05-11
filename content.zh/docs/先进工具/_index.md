@@ -10,8 +10,11 @@ bookCollapseSection: true
 
 ## 目录
 
-- [GPT系列]({{< relref "/docs/先进工具/GPT系列/" >}})
-- [免费服务]({{< relref "/docs/先进工具/免费服务/" >}})
+- [LLM系列]({{< relref "/docs/先进工具/LLM系列/" >}})
+  - [GPT系列]({{< relref "/docs/先进工具/LLM系列/GPT系列/" >}})
+  - [Bing系列]({{< relref "/docs/先进工具/LLM系列/Bing系列/" >}})
+  - [Bard系列]({{< relref "/docs/先进工具/LLM系列/Bard系列/" >}})
+  - [免费服务]({{< relref "/docs/先进工具/LLM系列/免费服务/" >}})
 
 ## 开始使用
 
