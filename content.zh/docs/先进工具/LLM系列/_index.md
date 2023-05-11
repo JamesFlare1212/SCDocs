@@ -12,16 +12,20 @@ title: LLM 系列
 
 本页的主要目的是帮助各位快速定位到你们需要的内容。
 
-{{< columns >}}
-
 ## 目录
+
+{{< columns >}}
 
 - [GPT系列]({{< relref "/docs/先进工具/LLM系列/GPT系列/" >}})
   - [Prompt Repository]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Repository/" >}})
   - [Prompt Example]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Example/" >}})
   - [Prompt Technique]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Technique/" >}})
 - [免费服务]({{< relref "/docs/先进工具/LLM系列/免费服务/" >}})
+
 <--->
+
+- [Bing系列]({{< relref "/docs/先进工具/LLM系列/Bing系列/" >}})
+- [Bard系列]({{< relref "/docs/先进工具/LLM系列/Bard系列/" >}})
 
 {{< /columns >}}
 
@@ -35,19 +39,25 @@ title: LLM 系列
 
 - [James Zhou](/zh/posts/about/james-zhou/)
 
+### 开发
+
+- [James Zhou](https://www.jamesflare.com)
+
 <--->
 
 ### 板块
 
-#### [Prompt Example]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Example/" >}})
+#### [GPT系列]({{< relref "/docs/先进工具/LLM系列/GPT系列/" >}})
 
 - [James Zhou](/zh/posts/about/james-zhou/)
 
-<--->
+#### [Bing系列]({{< relref "/docs/先进工具/LLM系列/Bing系列/" >}})
 
-### 开发
+- [James Zhou](/zh/posts/about/james-zhou/)
 
-- [James Zhou](https://www.jamesflare.com)
+#### [Bard系列]({{< relref "/docs/先进工具/LLM系列/Bard系列/" >}})
+
+- [James Zhou](/zh/posts/about/james-zhou/)
 
 {{< /columns >}}
 
