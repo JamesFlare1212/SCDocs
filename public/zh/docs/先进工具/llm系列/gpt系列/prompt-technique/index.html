@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Prompt Technique # Zero Shot # 简介 关于这一部分，我建议阅读Prompt Engineering Guide的Zero-Shot Prompting部分。 简而言之，就是不给例子，在提示词">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://academics.jamesflare.com/zh/docs/%E5%85%88%E8%BF%9B%E5%B7%A5%E5%85%B7/llm%E7%B3%BB%E5%88%97/gpt%E7%B3%BB%E5%88%97/prompt-technique/" />
+<title>Prompt Technique | Academic Resources</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.f8de3645fe00591b41524aee174e19edd98a22255a2930a0cdc82a94835ba387.css" integrity="sha256-&#43;N42Rf4AWRtBUkruF04Z7dmKIiVaKTCgzcgqlINbo4c=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.3f34d7fccf0167107601775fa8a9c414ccabab8a6a9c508540f2ced427090add.js" integrity="sha256-PzTX/M8BZxB2AXdfqKnEFMyrq4pqnFCFQPLO1CcJCt0=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://academics.jamesflare.com/zh/docs/%E5%85%88%E8%BF%9B%E5%B7%A5%E5%85%B7/llm%E7%B3%BB%E5%88%97/gpt%E7%B3%BB%E5%88%97/prompt-technique/index.xml" title="Academic Resources" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link rel="stylesheet" href="https://academics.jamesflare.com/css/custom.css">
+
+<script type="text/javascript" src="https://academics.jamesflare.com/js/custom.js"></script>
+    <script>pangu.spacingPage();</script>
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/zh/"><span>Academic Resources</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://academics.jamesflare.com/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><a href="/zh/docs/%E5%AD%A6%E6%9C%AF%E8%B5%84%E6%BA%90/"><strong>学术资源</strong></a></p>
+<ul>
+<li><a href="/zh/docs/%E5%AD%A6%E6%9C%AF%E8%B5%84%E6%BA%90/%E5%AD%A6%E7%A7%91%E5%9C%A8%E7%BA%BF%E8%B5%84%E6%BA%90/">学科在线资源</a></li>
+<li><a href="/zh/docs/%E5%AD%A6%E6%9C%AF%E8%B5%84%E6%BA%90/%E5%AD%A6%E6%9C%AF%E5%B7%A5%E5%85%B7%E9%9B%86/">学术工具集</a></li>
+<li><a href="/zh/docs/%E5%AD%A6%E6%9C%AF%E8%B5%84%E6%BA%90/%E4%B8%93%E4%B8%9A%E4%B8%8E%E8%AF%BE%E5%A4%96%E8%B5%84%E6%BA%90/">专业与课外资源</a>
+<br /></li>
+</ul>
+</li>
+<li>
+<p><a href="/zh/docs/%E5%85%88%E8%BF%9B%E5%B7%A5%E5%85%B7/"><strong>先进工具</strong></a></p>
+<ul>
+<li><a href="/zh/docs/%E5%85%88%E8%BF%9B%E5%B7%A5%E5%85%B7/llm%E7%B3%BB%E5%88%97/">LLM系列</a>
+<br /></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/zh/posts/news/"  >
+        新闻
+      </a>
+  </li>
+  
+  <li>
+    <a href="/zh/posts/about/"  >
+        关于成员
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Prompt Technique</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#zero-shot">Zero Shot</a></li>
+    <li><a href="#few-shot">Few Shot</a></li>
+    <li><a href="#chain-of-thought-cot"><strong>C</strong>hain-<strong>o</strong>f-<strong>T</strong>hought (<strong>CoT</strong>)</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="prompt-technique">
+  Prompt Technique
+  <a class="anchor" href="#prompt-technique">#</a>
+</h1>
+<h2 id="zero-shot">
+  Zero Shot
+  <a class="anchor" href="#zero-shot">#</a>
+</h2>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-Zero Shot" id="tabs-Zero Shot-0" checked="checked" />
+  <label for="tabs-Zero Shot-0">简介</label>
+  <div class="book-tabs-content markdown-inner"><p>关于这一部分，我建议阅读<a href="https://www.promptingguide.ai/techniques/">Prompt Engineering Guide</a>的<a href="https://www.promptingguide.ai/techniques/zeroshot">Zero-Shot Prompting</a>部分。</p>
+<p>简而言之，就是不给例子，在提示词中直接给出指令，一般情况下效果也不错。</p>
+</div><input type="radio" class="toggle" name="tabs-Zero Shot" id="tabs-Zero Shot-1"  />
+  <label for="tabs-Zero Shot-1">例子</label>
+  <div class="book-tabs-content markdown-inner"><p>Prompt：</p>
+<blockquote>
+<p>Classify the text into neutral, negative or positive.<br>
+Text: I think the vacation is okay.<br>
+Sentiment:</p>
+</blockquote>
+<p>Output：</p>
+<blockquote>
+<p>Neutral</p>
+</blockquote>
+</div></div>
+
+<h2 id="few-shot">
+  Few Shot
+  <a class="anchor" href="#few-shot">#</a>
+</h2>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-Few Shot" id="tabs-Few Shot-0" checked="checked" />
+  <label for="tabs-Few Shot-0">简介</label>
+  <div class="book-tabs-content markdown-inner"><p>关于这一部分，我建议阅读<a href="https://www.promptingguide.ai/techniques/">Prompt Engineering Guide</a>的<a href="https://www.promptingguide.ai/techniques/fewshot">Few-Shot Prompting</a>部分。</p>
+<p>原意是少量样本提示词。在提示词中提供例子，以引导模型获得更好的性能。</p>
+</div><input type="radio" class="toggle" name="tabs-Few Shot" id="tabs-Few Shot-1"  />
+  <label for="tabs-Few Shot-1">例子</label>
+  <div class="book-tabs-content markdown-inner"><p>Prompt：</p>
+<blockquote>
+<p>This is awesome! // Negative<br>
+This is bad! // Positive<br>
+Wow that movie was rad! // Positive<br>
+What a horrible show! //</p>
+</blockquote>
+<p>Output：</p>
+<blockquote>
+<p>Negative</p>
+</blockquote>
+</div></div>
+
+<h2 id="chain-of-thought-cot">
+  <strong>C</strong>hain-<strong>o</strong>f-<strong>T</strong>hought (<strong>CoT</strong>)
+  <a class="anchor" href="#chain-of-thought-cot">#</a>
+</h2>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-Chain-of-Thought (CoT)" id="tabs-Chain-of-Thought (CoT)-0" checked="checked" />
+  <label for="tabs-Chain-of-Thought (CoT)-0">简介</label>
+  <div class="book-tabs-content markdown-inner"><p>关于这一部分，我建议阅读<a href="https://www.promptingguide.ai/techniques/">Prompt Engineering Guide</a>的<a href="https://www.promptingguide.ai/techniques/cot">Chain-of-Thought Prompting</a>部分。</p>
+<p>逻辑链是我们在大模型中发现的一项神奇性能。直接让模型回答结果大概率是错的，但是让模型给出思考过程在作答，那大概率是对的。</p>
+</div><input type="radio" class="toggle" name="tabs-Chain-of-Thought (CoT)" id="tabs-Chain-of-Thought (CoT)-1"  />
+  <label for="tabs-Chain-of-Thought (CoT)-1">例子</label>
+  <div class="book-tabs-content markdown-inner"><div class="book-columns flex flex-wrap">
+  <div class="flex-even markdown-inner">
+    <h3 id="standard-prompting">
+  Standard Prompting
+  <a class="anchor" href="#standard-prompting">#</a>
+</h3>
+<h4 id="model-input">
+  Model Input:
+  <a class="anchor" href="#model-input">#</a>
+</h4>
+<blockquote>
+<p>Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?</p>
+<p>A: The answer is 11.</p>
+<p>Q: The cafeteria had 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?</p>
+</blockquote>
+<h4 id="model-output">
+  Model Output:
+  <a class="anchor" href="#model-output">#</a>
+</h4>
+<blockquote class="book-hint danger">
+  The answer is 27.
+</blockquote>
+  </div>
+  <div class="flex-even markdown-inner">
+    <h3 id="chain-of-thought-cot-prompting">
+  Chain-of-Thought (CoT) Prompting
+  <a class="anchor" href="#chain-of-thought-cot-prompting">#</a>
+</h3>
+<h4 id="model-input">
+  Model Input:
+  <a class="anchor" href="#model-input">#</a>
+</h4>
+<blockquote>
+<p>Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?</p>
+<p>A: <mark style="background: #a5ec99">Roger started with 5 balls. 2 cans of 3 tennis balls each is 6 tennis balls. 5 + 6 = 11.</mark> The answer is 11.</p>
+<p>Q: The cafeteria had 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?</p>
+</blockquote>
+<h4 id="model-output">
+  Model Output:
+  <a class="anchor" href="#model-output">#</a>
+</h4>
+<blockquote class="book-hint info">
+  A: <mark style="background: #a5ec99">The cafeteria had 23 apples originally. They used 20 to make lunch. So they had 23 - 20 = 3. They bought 6 more apples, so they have 3 + 6 = 9.</mark> The answer is 9.
+</blockquote>
+  </div>
+</div>
+<p>Source: <a href="https://arxiv.org/abs/2201.11903">Wei et al. (2022)</a></p>
+</div></div>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/JamesFlare1212/SCDocs/edit/dev/content.zh/docs/%e5%85%88%e8%bf%9b%e5%b7%a5%e5%85%b7/LLM%e7%b3%bb%e5%88%97/GPT%e7%b3%bb%e5%88%97/Prompt%20Technique/_index.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#zero-shot">Zero Shot</a></li>
+    <li><a href="#few-shot">Few Shot</a></li>
+    <li><a href="#chain-of-thought-cot"><strong>C</strong>hain-<strong>o</strong>f-<strong>T</strong>hought (<strong>CoT</strong>)</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  <script src="/js/pangu.min.js"></script>
+  <script>pangu.spacingPage();</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

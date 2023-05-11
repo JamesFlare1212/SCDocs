@@ -9,5 +9,5 @@ headless: true
 <br />
 
 - [**先进工具**]({{< relref "/docs/先进工具/" >}})
-  - [GPT系列]({{< relref "/docs/先进工具/GPT系列/" >}})
+  - [LLM系列]({{< relref "/docs/先进工具/LLM系列/" >}})
 <br />

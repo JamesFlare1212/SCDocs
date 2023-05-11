@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>关于成员 on Academic Resources</title>
+    <link>https://academics.jamesflare.com/zh/posts/about/</link>
+    <description>Recent content in 关于成员 on Academic Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="https://academics.jamesflare.com/zh/posts/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;am James Zhou - Core Developer</title>
+      <link>https://academics.jamesflare.com/zh/posts/about/james-zhou/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://academics.jamesflare.com/zh/posts/about/james-zhou/</guid>
+      <description>简介 # 我叫James Zhou是此文档的核心开发者之一。 简历 # 我于2022-2023年间担任DSAS学生会的技术负责人，做了挺多东西。 现在是R</description>
+    </item>
+    
+  </channel>
+</rss>

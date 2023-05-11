@@ -1,8 +1,8 @@
 ---
-title: GPT 系列
+title: LLM 系列
 ---
 
-# GPT系列
+# LLM 系列
 
 ## 前言
 
@@ -16,9 +16,11 @@ title: GPT 系列
 
 ## 目录
 
-- [Prompt Repository]({{< relref "/docs/先进工具/GPT系列/Prompt Repository/" >}})
-- [Prompt Example]({{< relref "/docs/先进工具/GPT系列/Prompt Example/" >}})
-- [Prompt Technique]({{< relref "/docs/先进工具/GPT系列/Prompt Technique/" >}})
+- [GPT系列]({{< relref "/docs/先进工具/LLM系列/GPT系列/" >}})
+  - [Prompt Repository]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Repository/" >}})
+  - [Prompt Example]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Example/" >}})
+  - [Prompt Technique]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Technique/" >}})
+- [免费服务]({{< relref "/docs/先进工具/LLM系列/免费服务/" >}})
 <--->
 
 {{< /columns >}}
@@ -37,7 +39,7 @@ title: GPT 系列
 
 ### 板块
 
-#### [Prompt Example]({{< relref "/docs/先进工具/GPT系列/Prompt Example/" >}})
+#### [Prompt Example]({{< relref "/docs/先进工具/LLM系列/GPT系列/Prompt Example/" >}})
 
 - [James Zhou](/zh/posts/about/james-zhou/)
 
